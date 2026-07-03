@@ -44,11 +44,11 @@ const Projects = () => {
 
               <div className="flex gap-4 text-[#5B6B92]">
 
-                <a href="#" className="hover:text-[#ff6b00]">
+                <a href="https://github.com/Sahilkaingade" className="hover:text-[#ff6b00]">
                   <FiGithub size={21} />
                 </a>
 
-                <a href="#" className="hover:text-[#ff6b00]">
+                <a href="https://travel-go-sand.vercel.app/" className="hover:text-[#ff6b00]">
                   <FiExternalLink size={21} />
                 </a>
 
