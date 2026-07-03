@@ -73,7 +73,7 @@ const About = () => {
             <InfoCard
               icon={<FiPhone />}
               title="Phone"
-              value="7021418973"
+              value="+91 7021418973"
             />
 
             <InfoCard
@@ -85,7 +85,7 @@ const About = () => {
             <InfoCard
               icon={<FiMail />}
               title="Email"
-              value="sahil@developer.com"
+              value="kaingadesahil841@gmail.com"
             />
 
             <InfoCard

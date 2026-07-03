@@ -10,13 +10,13 @@ const education = [
     highlight: true,
   },
   {
-    institute: "Acharya College of Commerce & Science",
-    degree: "Higher Secondary Certificate (HSC)",
+    institute: "Sanpada College of Commerce and Science",
+    degree: "Higher Secondary Certificate (HSC) in Science",
     score: "59.33%",
     year: "2021 – 2023",
   },
   {
-    institute: "Nutan Vidya Mandir",
+    institute: "Padua High School",
     degree: "Secondary School Certificate (SSC)",
     score: "77.60%",
     year: "2021",
@@ -72,12 +72,12 @@ const Education = () => {
                     {item.institute}
                   </p>
 
-                  <h3 className="text-[22px] font-bold text-[#0B1E59] mb-3">
+                  <h3 className="text-[18px] font-bold text-[#0B1E59] mb-3">
                     {item.degree}
                   </h3>
 
                   <p
-                    className={`font-semibold text-lg ${
+                    className={`font-semibold text-base ${
                       item.highlight
                         ? "text-[#ff6b00]"
                         : "text-[#5B6B92]"
@@ -89,7 +89,7 @@ const Education = () => {
               </div>
 
               {/* Year */}
-              <p className="text-[#5B6B92] text-lg whitespace-nowrap ml-5">
+              <p className="text-[#5B6B92] text-base whitespace-nowrap ml-5">
                 {item.year}
               </p>
             </div>

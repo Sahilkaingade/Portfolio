@@ -44,7 +44,7 @@ const Projects = () => {
 
               <div className="flex gap-4 text-[#5B6B92]">
 
-                <a href="https://github.com/Sahilkaingade" className="hover:text-[#ff6b00]">
+                <a href="https://github.com/Sahilkaingade/TravelGo" className="hover:text-[#ff6b00]">
                   <FiGithub size={21} />
                 </a>
 

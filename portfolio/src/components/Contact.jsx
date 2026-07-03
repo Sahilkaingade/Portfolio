@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-5 mt-12">
 
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:kaingadesahil841@gmail.com"
             className="flex items-center justify-center gap-3 bg-[#ff6b00] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl transition"
           >
             <FiMail size={20} />
@@ -46,7 +46,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Sahilkaingade/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center gap-3 border border-gray-300 bg-white hover:border-[#ff6b00] hover:text-[#ff6b00] text-[#0B1E59] font-semibold px-8 py-4 rounded-xl transition"
@@ -62,7 +62,7 @@ const Contact = () => {
 
           <div className="flex items-center justify-center gap-2">
             <FiPhone />
-            <span>7021418973</span>
+            <span>+91 7021418973</span>
           </div>
 
           <div className="flex items-center justify-center gap-2">
