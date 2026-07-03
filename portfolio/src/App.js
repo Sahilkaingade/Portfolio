@@ -13,14 +13,34 @@ export default function App() {
   return (
     <>
     <Header />
-    <Hero />
-    <About />
-    <Skills />
-    <Projects />
-    <Experience />
-    <Education />
-    <Contact />
-    <Footer />
+    <section id="home">
+  <Hero />
+</section>
+
+<section id="about">
+  <About />
+</section>
+
+<section id="skills">
+  <Skills />
+</section>
+
+<section id="projects">
+  <Projects />
+</section>
+
+<section id="experience">
+  <Experience />
+</section>
+
+<section id="education">
+  <Education />
+</section>
+
+<section id="contact">
+  <Contact />
+</section>
+<Footer />
     </>
   )
 }
