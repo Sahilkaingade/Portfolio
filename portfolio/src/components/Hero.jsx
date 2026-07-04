@@ -55,8 +55,7 @@ export default function Hero() {
           >
             Download My CV
           </a>
-
-          {/* View Projects */}
+          {/* View Projects  */}
           <a
             href="#projects"
             className="flex items-center justify-center px-8 py-4 border border-gray-300 rounded-xl font-semibold text-[#08153f] hover:bg-white transition"
