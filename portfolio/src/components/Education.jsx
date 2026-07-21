@@ -5,7 +5,7 @@ const education = [
   {
     institute: "Vidyalankar School of Information Technology",
     degree: "Bachelor of Science in Information Technology (BSc IT)",
-    score: "CGPA: 9.42",
+    score: "CGPA: 9.30",
     year: "2023 – 2026",
     highlight: true,
   },
