@@ -67,7 +67,7 @@ export default function Hero() {
         {/* Stats */}
         <div className="flex flex-wrap justify-center gap-12 md:gap-20 mt-12">
           <div>
-            <h3 className="text-2xl font-bold text-orange-500">9.42</h3>
+            <h3 className="text-2xl font-bold text-orange-500">9.30</h3>
             <p className="text-slate-500 mt-2">CGPA</p>
           </div>
 
