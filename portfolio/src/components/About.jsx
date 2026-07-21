@@ -51,7 +51,7 @@ const About = () => {
                 BSc in Information Technology
               </span>{" "}
               at Vidyalankar School of Information Technology
-              (2023–2026) with an outstanding CGPA of 9.42,
+              (2023–2026) with an outstanding CGPA of 9.30,
               and interning at{" "}
               <span className="font-semibold text-[#0A1D56]">
                 Maxval Technologies
@@ -73,7 +73,7 @@ const About = () => {
             <InfoCard
               icon={<FiPhone />}
               title="Phone"
-              value="+91 7021418973"
+              value="+91 70214 18973"
             />
 
             <InfoCard

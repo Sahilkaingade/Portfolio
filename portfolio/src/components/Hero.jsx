@@ -42,7 +42,7 @@ export default function Hero() {
         <p className="max-w-3xl mx-auto mt-10 text-lg leading-relaxed text-slate-600">
           Full-stack web developer passionate about building responsive,
           user-friendly applications. Currently interning at Maxval
-          Technologies and completing a BSc IT with a 9.42 CGPA.
+          Technologies and completing a BSc IT with a 9.30 CGPA.
         </p>
 
         {/* Buttons */}
