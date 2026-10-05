@@ -3,7 +3,6 @@ import {
   FiFolder,
   FiGithub,
   FiExternalLink,
-  FiCode,
 } from "react-icons/fi";
 
 const Projects = () => {
@@ -32,7 +31,7 @@ const Projects = () => {
         {/* Cards */}
         <div className="grid lg:grid-cols-2 gap-8">
 
-          {/* Project Card */}
+          {/* Travel Planner */}
           <div className="bg-white border border-gray-200 rounded-3xl p-7 shadow-sm hover:shadow-lg transition-all duration-300">
 
             {/* Top */}
@@ -44,11 +43,23 @@ const Projects = () => {
 
               <div className="flex gap-4 text-[#5B6B92]">
 
-                <a href="https://github.com/Sahilkaingade/TravelGo" className="hover:text-[#ff6b00]">
+                <a
+                  href="https://github.com/Sahilkaingade/TravelGo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Travel Planner GitHub repository"
+                  className="hover:text-[#ff6b00]"
+                >
                   <FiGithub size={21} />
                 </a>
 
-                <a href="https://travel-go-sand.vercel.app/" className="hover:text-[#ff6b00]">
+                <a
+                  href="https://travel-go-sand.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Travel Planner live site"
+                  className="hover:text-[#ff6b00]"
+                >
                   <FiExternalLink size={21} />
                 </a>
 
@@ -90,20 +101,62 @@ const Projects = () => {
 
           </div>
 
-          {/* Coming Soon */}
-          <div className="border border-dashed border-gray-300 rounded-3xl bg-white flex flex-col justify-center items-center min-h-[320px]">
+          {/* Buildstone (GitHub link only) */}
+          <div className="bg-white border border-gray-200 rounded-3xl p-7 shadow-sm hover:shadow-lg transition-all duration-300">
 
-            <div className="w-16 h-16 rounded-2xl bg-gray-100 flex items-center justify-center mb-6">
-              <FiCode className="text-3xl text-[#5B6B92]" />
+            {/* Top */}
+            <div className="flex justify-between items-start mb-8">
+
+              <div className="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center">
+                <FiFolder className="text-[#ff6b00] text-3xl" />
+              </div>
+
+              <div className="flex gap-4 text-[#5B6B92]">
+
+                <a
+                  href="https://github.com/Sahilkaingade/Construction"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Construction GitHub repository"
+                  className="hover:text-[#ff6b00]"
+                >
+                  <FiGithub size={21} />
+                </a>
+
+              </div>
+
             </div>
 
-            <h3 className="text-2xl font-semibold text-[#40517A] mb-2">
-              More projects coming soon
+            {/* Content */}
+            <h3 className="text-2xl font-bold text-[#0B1E59] mb-4">
+              Buildstone - Construction Website
             </h3>
 
-            <p className="text-gray-400 text-center">
-              Currently building exciting new things
+            <p className="text-gray-500 leading-8 text-[16px] mb-6">
+              A fully responsive construction company website with
+              a "Get a Free Quote" form that uses JavaScript
+              validation and stores quote requests in a MongoDB
+              Atlas database.
             </p>
+
+            {/* Tags */}
+            <div className="flex flex-wrap gap-3">
+
+              {[
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "MongoDB",
+              ].map((tech) => (
+                <span
+                  key={tech}
+                  className="px-4 py-1.5 rounded-full bg-orange-50 text-[#ff6b00] text-sm font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+
+            </div>
 
           </div>
 

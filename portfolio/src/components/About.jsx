@@ -3,6 +3,8 @@ import {
   FiMapPin,
   FiMail,
   FiBookOpen,
+  FiBriefcase,
+  FiGithub,
 } from "react-icons/fi";
 
 const About = () => {
@@ -39,24 +41,35 @@ const About = () => {
               <span className="font-semibold text-[#0A1D56]">
                 Sahil Sanjay Kaingade
               </span>
-              , a web developer based in Mumbai,
-              Maharashtra. I specialize in building responsive,
-              full-stack web applications using React.js,
-              Tailwind CSS, JavaScript and MongoDB.
+              , a{" "}
+              <span className="font-semibold text-[#0A1D56]">
+                Junior HTML Developer
+              </span>{" "}
+              based in Mumbai, Maharashtra. I build responsive,
+              user-friendly web interfaces and full-stack projects
+              using HTML5, CSS3, JavaScript, React.js, Tailwind CSS
+              and MongoDB.
             </p>
 
             <p>
-              I'm currently pursuing a{" "}
+              I recently completed my{" "}
               <span className="font-semibold text-[#0A1D56]">
                 BSc in Information Technology
               </span>{" "}
               at Vidyalankar School of Information Technology
-              (2023–2026) with an outstanding CGPA of 9.30,
-              and interning at{" "}
+              (2023–2026) with an outstanding CGPA of 9.30.
+            </p>
+
+            <p>
+              At{" "}
               <span className="font-semibold text-[#0A1D56]">
                 Maxval Technologies
-              </span>{" "}
-              where I handle frontend workflow tasks.
+              </span>
+              , I started as an HTML Intern and was promoted to
+              Junior HTML Developer in September 2026. I work in
+              the New Plans team on web-related tasks, HTML content
+              formatting and quality checks within a professional
+              frontend production workflow.
             </p>
 
             <p>
@@ -71,9 +84,15 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 
             <InfoCard
-              icon={<FiPhone />}
-              title="Phone"
-              value="+91 70214 18973"
+              icon={<FiBriefcase />}
+              title="Current Role"
+              value="Jr HTML Developer, Maxval Technologies"
+            />
+
+            <InfoCard
+              icon={<FiBookOpen />}
+              title="Degree"
+              value="BSc IT · 9.30 CGPA"
             />
 
             <InfoCard
@@ -83,15 +102,21 @@ const About = () => {
             />
 
             <InfoCard
+              icon={<FiPhone />}
+              title="Phone"
+              value="+91 70214 18973"
+            />
+
+            <InfoCard
               icon={<FiMail />}
               title="Email"
               value="kaingadesahil841@gmail.com"
             />
 
             <InfoCard
-              icon={<FiBookOpen />}
-              title="Degree"
-              value="BSc IT"
+              icon={<FiGithub />}
+              title="GitHub"
+              value="github.com/Sahilkaingade"
             />
 
           </div>
@@ -124,12 +149,12 @@ const InfoCard = ({ icon, title, value }) => {
         {icon}
       </div>
 
-      <div>
+      <div className="min-w-0">
         <h4 className="text-xs text-gray-400 mb-1">
           {title}
         </h4>
 
-        <p className="text-base font-semibold text-[#0A1D56]">
+        <p className="text-base font-semibold text-[#0A1D56] break-words">
           {value}
         </p>
       </div>

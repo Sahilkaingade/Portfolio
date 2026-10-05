@@ -1,5 +1,20 @@
 import React from "react";
 
+const roles = [
+  {
+    title: "Junior HTML Developer — New Plans Team",
+    date: "Sep 2026 – Present",
+    description:
+      "Promoted from intern to Junior HTML Developer. Handle web-related tasks and HTML content formatting within the New Plans team, run quality checks, and work within a professional frontend production workflow.",
+  },
+  {
+    title: "HTML Intern — New Plans Team",
+    date: "11 May, 2026 – Aug 2026",
+    description:
+      "Worked on web-related tasks, HTML content formatting and quality checking, and learned frontend workflow processes in a professional production environment.",
+  },
+];
+
 const Experience = () => {
   return (
     <section
@@ -29,39 +44,44 @@ const Experience = () => {
           {/* Vertical Line */}
           <div className="absolute left-0 top-2 bottom-0 w-[2px] bg-orange-200"></div>
 
-          {/* Timeline Dot */}
-          <div className="absolute left-[-8px] top-2 w-5 h-5 rounded-full bg-[#ff6b00] border-4 border-[#f7f8fc]"></div>
+          <div className="space-y-10">
+            {roles.map((role) => (
+              <div key={role.title} className="relative">
 
-          {/* Experience Card */}
-          <div className="bg-white border border-gray-200 rounded-3xl p-7 shadow-sm hover:shadow-md transition-all duration-300 max-w-3xl">
+                {/* Timeline Dot */}
+                <div className="absolute left-[-48px] top-2 w-5 h-5 rounded-full bg-[#ff6b00] border-4 border-[#f7f8fc]"></div>
 
-            {/* Company + Date */}
-            <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-5">
+                {/* Experience Card */}
+                <div className="bg-white border border-gray-200 rounded-3xl p-7 shadow-sm hover:shadow-md transition-all duration-300 max-w-3xl">
 
-              <div>
-                <h3 className="text-2xl font-bold text-[#0B1E59]">
-                  Maxval Technologies
-                </h3>
+                  {/* Company + Date */}
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-5">
 
-                <p className="text-[#ff6b00] text-lg font-medium mt-1">
-                  HTML Intern — New Plans Team
-                </p>
+                    <div>
+                      <h3 className="text-2xl font-bold text-[#0B1E59]">
+                        Maxval Technologies
+                      </h3>
+
+                      <p className="text-[#ff6b00] text-lg font-medium mt-1">
+                        {role.title}
+                      </p>
+                    </div>
+
+                    <span className="px-4 py-1 rounded-full bg-gray-100 text-[#5B6B92] text-sm whitespace-nowrap">
+                      {role.date}
+                    </span>
+
+                  </div>
+
+                  {/* Description */}
+                  <p className="text-gray-500 leading-8 text-[16px]">
+                    {role.description}
+                  </p>
+
+                </div>
+
               </div>
-
-              <span className="px-4 py-1 rounded-full bg-gray-100 text-[#5B6B92] text-sm whitespace-nowrap">
-                11 May, 2026 – Present
-              </span>
-
-            </div>
-
-            {/* Description */}
-            <p className="text-gray-500 leading-8 text-[16px]">
-              Working as an HTML Intern handling web-related tasks,
-              HTML content formatting, quality checking, and learning
-              frontend workflow processes in a professional production
-              environment.
-            </p>
-
+            ))}
           </div>
 
         </div>

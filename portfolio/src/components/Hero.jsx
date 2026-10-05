@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="flex items-center justify-center gap-4 mb-8">
           <div className="w-16 h-[2px] bg-orange-500" />
           <span className="text-orange-500 font-semibold tracking-[3px] text-sm uppercase">
-            I Am Web Developer
+            Junior HTML Developer
           </span>
           <div className="w-16 h-[2px] bg-orange-500" />
         </div>
@@ -40,16 +40,16 @@ export default function Hero() {
 
         {/* Description */}
         <p className="max-w-3xl mx-auto mt-10 text-lg leading-relaxed text-slate-600">
-          Full-stack web developer passionate about building responsive,
-          user-friendly applications. Currently interning at Maxval
-          Technologies and completing a BSc IT with a 9.30 CGPA.
+          Junior HTML Developer at Maxval Technologies who builds responsive,
+          user-friendly web interfaces and full-stack projects with React.js
+          and MongoDB. BSc IT graduate with a 9.30 CGPA.
         </p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-5 mt-12">
           {/* Download CV */}
           <a
-            href="/Resume_Sahil_Developer.pdf"
+            href="/Sahil_Sanjay_Kaingade.pdf"
             download
             className="flex items-center justify-center px-8 py-4 bg-orange-500 text-white rounded-xl font-semibold text-lg shadow-lg hover:bg-orange-600 transition"
           >
@@ -72,12 +72,12 @@ export default function Hero() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-orange-500">10+</h3>
-            <p className="text-slate-500 mt-2">Projects</p>
+            <h3 className="text-2xl font-bold text-orange-500">2</h3>
+            <p className="text-slate-500 mt-2">Full-Stack Projects</p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-orange-500">Intern</h3>
+            <h3 className="text-2xl font-bold text-orange-500">Jr Dev</h3>
             <p className="text-slate-500 mt-2">@ Maxval Tech</p>
           </div>
         </div>
