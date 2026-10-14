@@ -88,25 +88,19 @@ portfolio/
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/portfolio.git
-```
-
-### 2. Navigate to the Project Folder
+### 1. Navigate to the Project Folder
 
 ```bash
 cd portfolio
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the Development Server
+### 3. Start the Development Server
 
 ```bash
 npm start
@@ -116,17 +110,6 @@ The application will run at:
 
 ```
 http://localhost:3000
-```
-
----
-
-## 🔐 Environment Variables
-
-Create a `.env` file in the root directory.
-
-```env
-MONGODB_URI=your_mongodb_connection_string
-PORT=5000
 ```
 
 ---
@@ -143,30 +126,11 @@ PORT=5000
 - 📬 Contact
 
 ---
-
-## 📸 Preview
-
-### Home Page
-
-> Add screenshots here after uploading them to your repository.
-
-| Home | About | Projects |
-|------|-------|----------|
-| ![Home](images/home.png) | ![About](images/about.png) | ![Projects](images/projects.png) |
-
-> Remove this section if screenshots are not available.
-
----
-
 ## 📬 Contact
 
 **Sahil Kaingade**
 
-📧 Email: **your-email@gmail.com**
-
-💼 LinkedIn: **https://linkedin.com/in/your-profile**
-
-💻 GitHub: **https://github.com/YOUR_GITHUB_USERNAME**
+📧 Email: **kaingadesahil841@gmail.com**
 
 🌐 Portfolio: **https://sahilkaingade.vercel.app/**
 
@@ -215,13 +179,6 @@ git push origin feature/NewFeature
 
 If you like this project, please consider giving it a ⭐ on GitHub.
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
 
 <div align="center">
 
